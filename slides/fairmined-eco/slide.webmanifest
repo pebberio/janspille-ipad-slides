@@ -1,0 +1,9 @@
+{
+    "name": "Fairmined Eco",
+    "short_name": "Fairmined Eco Slides",
+    "description": "Fairmined Eco Slides.",
+    "start_url": "/fairmined-eco/index.html",
+    "display": "standalone",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}

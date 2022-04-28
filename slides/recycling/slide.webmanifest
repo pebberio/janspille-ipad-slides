@@ -1,0 +1,9 @@
+{
+    "name": "Recycling",
+    "short_name": "Recycling Slides",
+    "description": "Recycling Slides.",
+    "start_url": "/recycling/index.html",
+    "display": "standalone",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}

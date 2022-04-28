@@ -1,0 +1,41 @@
+version: "2"
+
+services:
+  ipad1:
+    build: .
+    image: reg.pebber.de/jspille/ipad-slides
+    restart: always
+    ports:
+      - "9123:8000"
+    expose:
+      - "8000"
+    labels:
+      - "traefik.docker.network=web"
+      - "traefik.enable=true"
+      - "traefik.basic.frontend.rule=Host:slides.janspille.de"
+      - "traefik.basic.port=8000"
+      - "traefik.basic.protocol=http"
+    volumes:
+      - "./slides/index.html:/revealjs/index.html"
+      - "./slides/eco-fair-trade:/revealjs/eco-fair-trade"
+      - "./slides/eco-recycling:/revealjs/eco-recycling"
+      - "./slides/eco-regional:/revealjs/eco-regional"
+      - "./slides/fairtrade:/revealjs/fairtrade"
+      - "./slides/elbe-gold:/revealjs/elbe-gold"
+      - "./slides/ethical-diamonds:/revealjs/ethical-diamonds"
+      - "./slides/faire-edelsteine:/revealjs/faire-edelsteine"
+      - "./slides/faire-saphire:/revealjs/faire-saphire"
+      - "./slides/fairmined-eco:/revealjs/fairmined-eco"
+      - "./slides/recycling:/revealjs/recycling"
+      - "./slides/custom.css:/revealjs/css/theme/custom.css"
+      - "./slides/left_arrow.png:/revealjs/css/theme/left_arrow.png"
+      - "./slides/left_arrow_hover.png:/revealjs/css/theme/left_arrow_hover.png"
+      - "./slides/right_arrow.png:/revealjs/css/theme/right_arrow.png"
+      - "./slides/right_arrow_hover.png:/revealjs/css/theme/right_arrow_hover.png"
+      - "./slides/custom.js:/revealjs/js/custom.js"
+    networks:
+      - web
+      - default
+networks:
+  web:
+    external: true

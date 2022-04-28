@@ -1,0 +1,9 @@
+{
+    "name": "Elbe Gold",
+    "short_name": "Elbe Gold Slides",
+    "description": "Elbe Gold Slides.",
+    "start_url": "/elbe-gold/index.html",
+    "display": "standalone",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}

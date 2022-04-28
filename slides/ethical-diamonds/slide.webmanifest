@@ -1,0 +1,9 @@
+{
+    "name": "Ethical Diamonds",
+    "short_name": "Ethical Diamonds Slides",
+    "description": "Ethical Diamonds Slides.",
+    "start_url": "/ethical-diamonds/index.html",
+    "display": "standalone",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}

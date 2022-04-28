@@ -1,0 +1,9 @@
+{
+    "name": "Eco Recyling",
+    "short_name": "E-Recycle Slides",
+    "description": "Eco Recycling Slides.",
+    "start_url": "/eco-recycling/index.html",
+    "display": "standalone",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}

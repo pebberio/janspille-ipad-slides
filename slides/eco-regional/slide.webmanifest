@@ -1,0 +1,9 @@
+{
+    "name": "Eco Regional",
+    "short_name": "E-Regional Slides",
+    "description": "Eco Regional Slides.",
+    "start_url": "/eco-regional/index.html",
+    "display": "standalone",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}

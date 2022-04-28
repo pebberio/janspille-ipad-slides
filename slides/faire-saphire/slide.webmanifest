@@ -1,0 +1,9 @@
+{
+    "name": "Faire Saphire",
+    "short_name": "Faire Saphire Slides",
+    "description": "Faire Saphire Slides.",
+    "start_url": "/faire-saphire/index.html",
+    "display": "standalone",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}

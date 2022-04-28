@@ -1,0 +1,9 @@
+{
+    "name": "Faire Edelsteine",
+    "short_name": "Faire Edelsteine Slides",
+    "description": "Faire Edelsteine Slides.",
+    "start_url": "/faire-edelsteine/index.html",
+    "display": "standalone",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}

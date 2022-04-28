@@ -1,0 +1,52 @@
+.reveal .slides > section,
+.reveal .slides > section > section {
+	padding: 0px !important;
+}
+
+.reveal section img {
+	margin: 0px;
+	border: 0px;
+	background: unset;
+}
+
+.reveal img,
+.reveal video,
+.reveal iframe {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.reveal .controls {
+	color: #937e21;
+}
+
+.navigate-left {
+	background-image: url('left_arrow.png');
+	background-repeat: no-repeat;
+	background-position-y: center;
+	top: 20px !important;
+	width: 20%;
+	height: 100%;
+}
+
+.reveal .controls .controls-arrow:before, .reveal .controls .controls-arrow:after {
+	width: 0px;
+	height:0px;
+}
+.navigate-left:hover {
+	background-image: url('left_arrow_hover.png');
+}
+
+.navigate-right {
+	background-image: url('right_arrow.png');
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: right;
+	top: 20px !important;
+	width: 20%;
+	height: 100%;
+}
+
+.navigate-right:hover {
+	background-image: url('right_arrow_hover.png');
+}

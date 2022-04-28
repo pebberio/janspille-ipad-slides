@@ -1,0 +1,9 @@
+{
+    "name": "Eco Fair Trade",
+    "short_name": "EFT Slides",
+    "description": "Eco Fair Trade Slides.",
+    "start_url": "/eco-fair-trade/index.html",
+    "display": "standalone",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}
